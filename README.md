@@ -47,6 +47,8 @@ python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-svg.txt
 ```
 
+英文Windows或重定向日志时，建议先执行 `$env:PYTHONUTF8 = "1"`，避免中文日志因系统默认编码而报错。
+
 Inkscape用于人工描边，需单独安装。脚本不依赖GPU、Streamlit或图形工作台，也不接入AI服务或要求API密钥。
 
 ## 先跑唯一示例：不连接相机

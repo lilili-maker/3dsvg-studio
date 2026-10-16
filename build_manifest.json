@@ -30,8 +30,8 @@
       "sha256": "aef42a71ad9dacbab675e8e20d2062086422f6ae290044d428c884a9abc4aa83"
     },
     ".github/workflows/tests.yml": {
-      "size_bytes": 1067,
-      "sha256": "10b1fe18c2fa5a134164ba23b1ddfb6e81d91eb39257f8300ea7d0ec53108e19"
+      "size_bytes": 1117,
+      "sha256": "f0f4181c059c3e1e94b3ee8740c3c9372df8c960c4a2bbc927d58cc682961298"
     },
     ".gitignore": {
       "size_bytes": 158,
@@ -150,8 +150,8 @@
       "sha256": "c3cc64157b279491ab25fcede4fea147e639b43befdf1e6bfeb2a90d125eb559"
     },
     "README.md": {
-      "size_bytes": 15283,
-      "sha256": "c89374102dfb4d341ebb4e14c56ba390ac734cf8069713b3afd94917a25397d2"
+      "size_bytes": 15415,
+      "sha256": "2d7f986f6f22ab6615623e2c8877fde648dd8ba3c34bea52680f89296d7c0e84"
     },
     "requirements-svg.txt": {
       "size_bytes": 251,
