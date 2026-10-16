@@ -1,0 +1,21 @@
+{
+  "width": 640,
+  "height": 480,
+  "fx": 606.9918212890625,
+  "fy": 606.5964965820312,
+  "cx": 321.0675048828125,
+  "cy": 241.45127868652344,
+  "intrinsics_unit": "pixels",
+  "depth_scale": 0.0010000000474974513,
+  "depth_scale_unit": "meters_per_depth_unit",
+  "depth_dtype": "uint16",
+  "depth_aligned_to": "color",
+  "distortion_model": "distortion.inverse_brown_conrady",
+  "distortion_coefficients": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

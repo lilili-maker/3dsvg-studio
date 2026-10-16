@@ -1,0 +1,34 @@
+{
+  "example_id": "chair",
+  "physical_objects": 1,
+  "rgbd_pairs": 1,
+  "geometry_route": "RGB perspective photo tracing with separately marked manual wheel estimates; not automatic pointcloud contour recovery.",
+  "source_rgb_sha256": "de431dcb23b564d61e6c05f1666add241abaedc2215f5476ae682443075cc054",
+  "source_depth_sha256": "3f87b21bd842a3b65f8076b0af7e634033c334ba34aca608db965aede5807836",
+  "original_depth_dtype": "uint16",
+  "images_unchanged_from_original_capture": true,
+  "no_other_experimental_cases": true,
+  "part_count": 11,
+  "part_files": [
+    "001.svg",
+    "002.svg",
+    "003.svg",
+    "004.svg",
+    "005.svg",
+    "006.svg",
+    "007.svg",
+    "008.svg",
+    "009.svg",
+    "010.svg",
+    "011.svg"
+  ],
+  "excluded_capture_metadata": [
+    "device serial",
+    "host timestamps",
+    "absolute personal paths"
+  ],
+  "manual_completion_paths": [
+    "rear_wheels_00",
+    "wheel_bottom_completed"
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "app_name": "3DSVG Studio",
+  "example_cases": [
+    "chair"
+  ],
+  "excluded": [
+    ".git",
+    ".venv",
+    ".venv-gpu",
+    "data",
+    "output",
+    "historical_reconstruction",
+    "robot",
+    "db3",
+    "mesh"
+  ],
+  "adaptations": [
+    "run_3dsvg_studio.py: from reconstruction.merge_pointclouds import  -> from svg_isometric.compat import ",
+    "src/svg_isometric/capture_view.py: from turntable.common import validate_images -> from svg_isometric.compat import validate_images",
+    "src/svg_isometric/generate_view_pointcloud.py: from reconstruction.merge_pointclouds import  -> from svg_isometric.compat import ",
+    "src/svg_isometric/crop_pointcloud.py: from reconstruction.clean_mesh import validate_crop_config, make_box -> from svg_isometric.compat import validate_crop_config, make_box",
+    "src/svg_isometric/crop_pointcloud.py: from reconstruction.merge_pointclouds import  -> from svg_isometric.compat import ",
+    "src/svg_isometric/project_pointcloud.py: from reconstruction.pose_utils import  -> from svg_isometric.compat import ",
+    "src/svg_isometric/dimensions.py: from reconstruction.pose_utils import  -> from svg_isometric.compat import "
+  ],
+  "note": "compat functions are extracted with AST identity checks. No historical source file is modified.",
+  "files": {
+    ".gitattributes": {
+      "size_bytes": 114,
+      "sha256": "a6fdd28f356649e2397e0e2d79b8e8bbcfeba8bc0ca8a1690c73167e2b6f7629"
+    },
+    ".github/workflows/tests.yml": {
+      "size_bytes": 1067,
+      "sha256": "10b1fe18c2fa5a134164ba23b1ddfb6e81d91eb39257f8300ea7d0ec53108e19"
+    },
+    ".gitignore": {
+      "size_bytes": 158,
+      "sha256": "cfc9c69417f10fbbc9d9e1fcfe1679a1dd453e0d8787cebacf66609a924fa602"
+    },
+    "CHANGELOG.md": {
+      "size_bytes": 782,
+      "sha256": "4985b7fff723280a3768b438653d507ddd843440166f423fefb9810c9dce9b19"
+    },
+    "config/svg_parts_chair.json": {
+      "size_bytes": 1121,
+      "sha256": "67fbc27c8c3f3b92413ea44977d34b435e668bb8b52fd8c8ffbe62e84b6dbf81"
+    },
+    "CONTRIBUTING.md": {
+      "size_bytes": 1555,
+      "sha256": "8d5332bf14418dc141e85b31fe9bd8c52febc5ca8243bd8951bc6b1e559332b0"
+    },
+    "docs/3DSVG_STUDIO_README.md": {
+      "size_bytes": 6219,
+      "sha256": "1caba98a34c7b767e43999cb8e3a153e1244796ee10e834802a27e1bc54b89b6"
+    },
+    "docs/AI_ASSISTED_TRACING.md": {
+      "size_bytes": 3767,
+      "sha256": "225a465c3646c9f1d1b03b58a7c7666cb318e393931312f015cfab31d66c07f9"
+    },
+    "docs/PUBLISH_VALIDATION.md": {
+      "size_bytes": 3221,
+      "sha256": "550ef14cc7104ace3ed0a3f1a54f3039c5be6382a9a056484c1cdfe04abef129"
+    },
+    "docs/RGBD_AUTO_CONTOURS.md": {
+      "size_bytes": 4559,
+      "sha256": "37096ffbdf0ebd41b93030c170dc8fde6c0d3dbb222560090339ef2a74d7cdb2"
+    },
+    "docs/SVG_PARTS_SPLITTER.md": {
+      "size_bytes": 4108,
+      "sha256": "b7241f4d5467f275949d9a7366ba277276e4890f5b8eb6ce146745a2926244a1"
+    },
+    "examples/chair/capture/camera_intrinsics.json": {
+      "size_bytes": 480,
+      "sha256": "cccbef27006aeacff449099fc75042b699b7ff34757cd43ed63416e7c779f06b"
+    },
+    "examples/chair/capture/color.png": {
+      "size_bytes": 390126,
+      "sha256": "de431dcb23b564d61e6c05f1666add241abaedc2215f5476ae682443075cc054"
+    },
+    "examples/chair/capture/depth.png": {
+      "size_bytes": 187834,
+      "sha256": "3f87b21bd842a3b65f8076b0af7e634033c334ba34aca608db965aede5807836"
+    },
+    "examples/chair/final.svg": {
+      "size_bytes": 10644,
+      "sha256": "a610b6d59a53c87c7851a619ab27cf39d48d05316259f1ba3d27ff1ca4d9e51e"
+    },
+    "examples/chair/parts/001.svg": {
+      "size_bytes": 2957,
+      "sha256": "9be3921582f9d5b60e6d6f918864bd74d3b59fd0c75d774e8ced92093aa9981c"
+    },
+    "examples/chair/parts/002.svg": {
+      "size_bytes": 2776,
+      "sha256": "a0324b2c279afab5cee74f4ff3bb863f02b9c3f5774998ff8fa99f6cf0090eca"
+    },
+    "examples/chair/parts/003.svg": {
+      "size_bytes": 2388,
+      "sha256": "aee8b6da7c2421c25265f569ff3ed01e25e7c8cc8b3c627428016319c35e3f22"
+    },
+    "examples/chair/parts/004.svg": {
+      "size_bytes": 2820,
+      "sha256": "7a1ae869c136ca16fbd6afd90bec7a35011688d3711abb6a1339b9cfc7ca0331"
+    },
+    "examples/chair/parts/005.svg": {
+      "size_bytes": 2441,
+      "sha256": "c3219c495a8fea8d001b9e48421b803db7bfc51acd8a7d9c786584f5f73e30cf"
+    },
+    "examples/chair/parts/006.svg": {
+      "size_bytes": 4837,
+      "sha256": "2fdc332327b77b5779e90c5af2769052a22c5f13d81d5f487f90fb6b11744466"
+    },
+    "examples/chair/parts/007.svg": {
+      "size_bytes": 2301,
+      "sha256": "8dc068357bac9c4aa98673c253bfa2a82fe8b4b080453745de25ddade06c4d3e"
+    },
+    "examples/chair/parts/008.svg": {
+      "size_bytes": 2304,
+      "sha256": "55598f1f37d31779b3b09441f680787917e843195cf93679ef28c25186b36f7a"
+    },
+    "examples/chair/parts/009.svg": {
+      "size_bytes": 2298,
+      "sha256": "d61e3af7ea9cfbf65924323b39cb3ff6046ae08e0ab2be2db7eb6aec155ebfc0"
+    },
+    "examples/chair/parts/010.svg": {
+      "size_bytes": 2110,
+      "sha256": "4395e8524ea76779b8d3a46a74b9bc2cb903869d7d414729631bd931f5f51991"
+    },
+    "examples/chair/parts/011.svg": {
+      "size_bytes": 2431,
+      "sha256": "1d718c1822e8a161b54b082d94346e8e862d4bd64eab25df18cdece09e72a334"
+    },
+    "examples/chair/parts/README.md": {
+      "size_bytes": 813,
+      "sha256": "b39c9e345db85cb8b65f33b120c3997b5de02af8ed81da3895249da6285fc8a9"
+    },
+    "examples/chair/parts/split_report.json": {
+      "size_bytes": 6396,
+      "sha256": "a8703925f29abfc3aea4aeaf7b01e591c18774ae8cb435b46080b57a27c899a3"
+    },
+    "examples/chair/parts_config.json": {
+      "size_bytes": 1121,
+      "sha256": "67fbc27c8c3f3b92413ea44977d34b435e668bb8b52fd8c8ffbe62e84b6dbf81"
+    },
+    "examples/chair/preview.png": {
+      "size_bytes": 476822,
+      "sha256": "862c96bfbb76cc155ce92fe87a5519eff7b270df103692cff5fd5d3a611f7acc"
+    },
+    "examples/chair/provenance.json": {
+      "size_bytes": 962,
+      "sha256": "c3cc64157b279491ab25fcede4fea147e639b43befdf1e6bfeb2a90d125eb559"
+    },
+    "README.md": {
+      "size_bytes": 15283,
+      "sha256": "c89374102dfb4d341ebb4e14c56ba390ac734cf8069713b3afd94917a25397d2"
+    },
+    "requirements-svg.txt": {
+      "size_bytes": 251,
+      "sha256": "74d50c8c5d058e53d7dd4c4cb0260674e5ee7113a2860a965bff8b719d73703f"
+    },
+    "requirements.txt": {
+      "size_bytes": 251,
+      "sha256": "74d50c8c5d058e53d7dd4c4cb0260674e5ee7113a2860a965bff8b719d73703f"
+    },
+    "rgbd_to_svg.py": {
+      "size_bytes": 11614,
+      "sha256": "b40fe942a7ef8e2c14a0ae37b1ac34453cf45e41ce9258d053e09c7545c90951"
+    },
+    "run_3dsvg_studio.py": {
+      "size_bytes": 14455,
+      "sha256": "4437d6e8154ce757748ab6c47c4567a415017ddd034cf083a446552b38b2beac"
+    },
+    "run_photo_svg_workflow.py": {
+      "size_bytes": 3670,
+      "sha256": "9431a896cd43b4eba8d0219f832e5c6880d5051ee378a3fabebbd30e762f715c"
+    },
+    "run_workflow.py": {
+      "size_bytes": 6692,
+      "sha256": "587cedbac8fe50b0e6088475b87942545f5415edf316787fa78cc1b0d5487f8e"
+    },
+    "scripts/build_github_release.py": {
+      "size_bytes": 7253,
+      "sha256": "83c7c08255084c9a9fa8eb7ed3468fe4d7ebb364fad84fc21cf758c5e4ecdd3f"
+    },
+    "scripts/publish_github.ps1": {
+      "size_bytes": 3477,
+      "sha256": "fb2a6c22a1a717f8db1c50b67d4442a8db7877e4f4c7ff2eedda61c33ece8226"
+    },
+    "split_svg_parts.py": {
+      "size_bytes": 20758,
+      "sha256": "04aefd267cbc5ab8ec017e67f955391db20e2a89df100b910fa1bda265baff62"
+    },
+    "src/02_record_data.py": {
+      "size_bytes": 780,
+      "sha256": "ff463120e8e8c6c1d8e681b4bbd56d8394a4a85e94854b156457ef2818f2c38e"
+    },
+    "src/04_single_frame_pointcloud.py": {
+      "size_bytes": 9476,
+      "sha256": "bce78598500c619f972e70af00aca6be282e1f5e5f183a113bcd33dbeb512b34"
+    },
+    "src/svg_isometric/__init__.py": {
+      "size_bytes": 87,
+      "sha256": "c2a63f7a2865ecf081ea7adc1ddca09a05f497d6b70530fcbd62bffc0aaf5ffc"
+    },
+    "src/svg_isometric/capture_view.py": {
+      "size_bytes": 5978,
+      "sha256": "a9e3e389726b73a0ead7ee5c13abbdfcaa40283545ec91eadbfd6f232dcd04b9"
+    },
+    "src/svg_isometric/common.py": {
+      "size_bytes": 1955,
+      "sha256": "65b7f6208553125e53844f70613ee18b23fa1c2d76690d036a10e7798dfdb62c"
+    },
+    "src/svg_isometric/compat.py": {
+      "size_bytes": 6240,
+      "sha256": "b4e345e4099ddc7193daa81ed1871715b83b3fa1a23bf4806ce1b51722e29e85"
+    },
+    "src/svg_isometric/create_photo_template.py": {
+      "size_bytes": 10484,
+      "sha256": "5928eebdde60fdc7ee22a08e5595d34b5f6b2fd8cc92b7b65833d7056417cdb7"
+    },
+    "src/svg_isometric/create_template.py": {
+      "size_bytes": 7564,
+      "sha256": "59b80754787bbd8f796ec46f8322b18b0b27b480610b63231f63d3fd8cf8a36c"
+    },
+    "src/svg_isometric/crop_pointcloud.py": {
+      "size_bytes": 3380,
+      "sha256": "00e0717e1a19460d9ad6bbbd26227d0abd5aab27b63bccefdc5aba9e187fc458"
+    },
+    "src/svg_isometric/dimensions.py": {
+      "size_bytes": 4261,
+      "sha256": "20bddd701d5228e76114184cec164dab2e3f1834fdb69be552eeb88cdfacc24f"
+    },
+    "src/svg_isometric/export_photo_trace.py": {
+      "size_bytes": 7083,
+      "sha256": "fc92d583101a76401ee8f5a2949c4d3aaf53199f8b2e51d74a81de62a771668a"
+    },
+    "src/svg_isometric/generate_view_pointcloud.py": {
+      "size_bytes": 3917,
+      "sha256": "96b1f32e10f39b874e7cf79d72ec8f860c40211d5b4007b0b77179e3a75436af"
+    },
+    "src/svg_isometric/photo_workflow.py": {
+      "size_bytes": 20651,
+      "sha256": "20e0f3179509d6dc78d074dceef0bc878d32e1dccc183dae73b65a51c7257337"
+    },
+    "src/svg_isometric/project_pointcloud.py": {
+      "size_bytes": 12955,
+      "sha256": "250aebd6d4989f8b1001ca7075637deab9d71b4b1197c50c93a7e9605291d056"
+    },
+    "src/svg_isometric/validate_template.py": {
+      "size_bytes": 4037,
+      "sha256": "d18517e94feb06a4f294e401d7d0e14f40d32824faac246e3092bdff16e52040"
+    },
+    "tests/test_3dsvg_studio.py": {
+      "size_bytes": 9098,
+      "sha256": "cedfcf28b3fa81951d06699f89413ae7f70ceb1eca3a519ba8fcfcb1719888df"
+    },
+    "tests/test_isometric_capture.py": {
+      "size_bytes": 3884,
+      "sha256": "df0878a63730fe06dad73667356811ab1cb739126054e819c83fad8041eacd0f"
+    },
+    "tests/test_photo_template.py": {
+      "size_bytes": 4004,
+      "sha256": "2dbe1429e37216b31aa501037305e6a0b1f455e3b05100083e4a4a89cccf0c3f"
+    },
+    "tests/test_photo_trace_export.py": {
+      "size_bytes": 3996,
+      "sha256": "e3054cced4c3cb38186cc2f805336828cda9c81eaa88e01bf300e11f2fcb6e63"
+    },
+    "tests/test_photo_workflow.py": {
+      "size_bytes": 7941,
+      "sha256": "00509e96a6fe696ce0109872f0ccae33badf6126c754fc1f0b05addb81296713"
+    },
+    "tests/test_rgbd_auto_contours.py": {
+      "size_bytes": 3583,
+      "sha256": "935c636232255abd77ac9cdfa5a330cd6c30ffa8f5abf6493089b79690fd6c4e"
+    },
+    "tests/test_split_svg_parts.py": {
+      "size_bytes": 9991,
+      "sha256": "7df1df85ca4d7c84f500c0caeca6c1a78b7e0dc51e0b27100290e08eed0ea657"
+    },
+    "tests/test_workflow_cli.py": {
+      "size_bytes": 4434,
+      "sha256": "72a13bac920706c2017ac42a34f76b9be8decf7cb12e079a6f4595dacbfc04f9"
+    }
+  }
+}

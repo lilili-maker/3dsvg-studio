@@ -1,0 +1,217 @@
+{
+  "app_name": "3DSVG Studio",
+  "source": "../final.svg",
+  "source_sha256": "a610b6d59a53c87c7851a619ab27cf39d48d05316259f1ba3d27ff1ca4d9e51e",
+  "source_unchanged": true,
+  "split_mode": "explicit_config",
+  "part_count": 11,
+  "parts": [
+    {
+      "number": "001",
+      "name": "01_backrest",
+      "label": "靠背",
+      "selected_ids": [
+        "backrest"
+      ],
+      "vector_count": 5,
+      "path_count": 5,
+      "file": "001.svg",
+      "canvas_trimmed": true,
+      "viewBox": "42.6888888889 25.0716049383 166.941610741 143.258322459",
+      "width": "166.941610741px",
+      "height": "143.258322459px",
+      "warnings": [],
+      "sha256": "9be3921582f9d5b60e6d6f918864bd74d3b59fd0c75d774e8ced92093aa9981c",
+      "readback_verified": true
+    },
+    {
+      "number": "002",
+      "name": "02_seat",
+      "label": "坐垫",
+      "selected_ids": [
+        "seat"
+      ],
+      "vector_count": 4,
+      "path_count": 4,
+      "file": "002.svg",
+      "canvas_trimmed": true,
+      "viewBox": "75.9818181818 211.133333333 252.348616601 91.9087719298",
+      "width": "252.348616601px",
+      "height": "91.9087719298px",
+      "warnings": [],
+      "sha256": "a0324b2c279afab5cee74f4ff3bb863f02b9c3f5774998ff8fa99f6cf0090eca",
+      "readback_verified": true
+    },
+    {
+      "number": "003",
+      "name": "03_back_support",
+      "label": "靠背支撑杆",
+      "selected_ids": [
+        "back_support"
+      ],
+      "vector_count": 3,
+      "path_count": 3,
+      "file": "003.svg",
+      "canvas_trimmed": true,
+      "viewBox": "94.8 136.8 63.4 109.4",
+      "width": "63.4px",
+      "height": "109.4px",
+      "warnings": [],
+      "sha256": "aee8b6da7c2421c25265f569ff3ed01e25e7c8cc8b3c627428016319c35e3f22",
+      "readback_verified": true
+    },
+    {
+      "number": "004",
+      "name": "04_gas_lift",
+      "label": "气压杆",
+      "selected_ids": [
+        "support"
+      ],
+      "vector_count": 6,
+      "path_count": 6,
+      "file": "004.svg",
+      "canvas_trimmed": true,
+      "viewBox": "159.8 269.8 55.4 131.4",
+      "width": "55.4px",
+      "height": "131.4px",
+      "warnings": [],
+      "sha256": "7a1ae869c136ca16fbd6afd90bec7a35011688d3711abb6a1339b9cfc7ca0331",
+      "readback_verified": true
+    },
+    {
+      "number": "005",
+      "name": "05_adjustment_lever",
+      "label": "高度调节杆",
+      "selected_ids": [
+        "lever"
+      ],
+      "vector_count": 3,
+      "path_count": 3,
+      "file": "005.svg",
+      "canvas_trimmed": true,
+      "viewBox": "74.5692307692 262.8 92.6307692308 66.9",
+      "width": "92.6307692308px",
+      "height": "66.9px",
+      "warnings": [],
+      "sha256": "c3219c495a8fea8d001b9e48421b803db7bfc51acd8a7d9c786584f5f73e30cf",
+      "readback_verified": true
+    },
+    {
+      "number": "006",
+      "name": "06_base",
+      "label": "五星底座",
+      "selected_ids": [
+        "rear_base",
+        "base"
+      ],
+      "vector_count": 15,
+      "path_count": 15,
+      "file": "006.svg",
+      "canvas_trimmed": true,
+      "viewBox": "29.1333333333 335.728571429 316.645614035 170.562337662",
+      "width": "316.645614035px",
+      "height": "170.562337662px",
+      "warnings": [],
+      "sha256": "2fdc332327b77b5779e90c5af2769052a22c5f13d81d5f487f90fb6b11744466",
+      "readback_verified": true
+    },
+    {
+      "number": "007",
+      "name": "07_wheel_front_left",
+      "label": "左前轮",
+      "selected_ids": [
+        "wheels_00",
+        "wheels_01"
+      ],
+      "vector_count": 2,
+      "path_count": 2,
+      "file": "007.svg",
+      "canvas_trimmed": true,
+      "viewBox": "25.6 401.8 51.6 45.8444444444",
+      "width": "51.6px",
+      "height": "45.8444444444px",
+      "warnings": [],
+      "sha256": "8dc068357bac9c4aa98673c253bfa2a82fe8b4b080453745de25ddade06c4d3e",
+      "readback_verified": true
+    },
+    {
+      "number": "008",
+      "name": "08_wheel_front_right",
+      "label": "右前轮",
+      "selected_ids": [
+        "wheels_02",
+        "wheels_03"
+      ],
+      "vector_count": 2,
+      "path_count": 2,
+      "file": "008.svg",
+      "canvas_trimmed": true,
+      "viewBox": "292.8 439.8 54.4 49.7333333333",
+      "width": "54.4px",
+      "height": "49.7333333333px",
+      "warnings": [],
+      "sha256": "55598f1f37d31779b3b09441f680787917e843195cf93679ef28c25186b36f7a",
+      "readback_verified": true
+    },
+    {
+      "number": "009",
+      "name": "09_wheel_rear_left",
+      "label": "左后轮（含人工补全）",
+      "selected_ids": [
+        "rear_wheels_00"
+      ],
+      "vector_count": 1,
+      "path_count": 1,
+      "file": "009.svg",
+      "canvas_trimmed": true,
+      "viewBox": "132.8 346.633333333 49.4 43.5666666667",
+      "width": "49.4px",
+      "height": "43.5666666667px",
+      "warnings": [],
+      "sha256": "d61e3af7ea9cfbf65924323b39cb3ff6046ae08e0ab2be2db7eb6aec155ebfc0",
+      "readback_verified": true
+    },
+    {
+      "number": "010",
+      "name": "10_wheel_rear_right",
+      "label": "右后轮",
+      "selected_ids": [
+        "rear_wheels_01"
+      ],
+      "vector_count": 1,
+      "path_count": 1,
+      "file": "010.svg",
+      "canvas_trimmed": true,
+      "viewBox": "265.8 365.8 52.4 44.9",
+      "width": "52.4px",
+      "height": "44.9px",
+      "warnings": [],
+      "sha256": "4395e8524ea76779b8d3a46a74b9bc2cb903869d7d414729631bd931f5f51991",
+      "readback_verified": true
+    },
+    {
+      "number": "011",
+      "name": "11_wheel_bottom",
+      "label": "下方轮子（含人工补全）",
+      "selected_ids": [
+        "wheel_bottom_completed"
+      ],
+      "vector_count": 1,
+      "path_count": 1,
+      "file": "011.svg",
+      "canvas_trimmed": true,
+      "viewBox": "106.8 475.8 56.9096679919 53.5261822124",
+      "width": "56.9096679919px",
+      "height": "53.5261822124px",
+      "warnings": [],
+      "sha256": "1d718c1822e8a161b54b082d94346e8e862d4bd64eab25df18cdece09e72a334",
+      "readback_verified": true
+    }
+  ],
+  "assigned_vector_count": 43,
+  "unassigned_vector_count": 0,
+  "geometry_modified": false,
+  "automatic_geometry_completion": false,
+  "filename_convention": "001.svg, 002.svg, ...",
+  "warnings": []
+}

@@ -1,0 +1,7 @@
+# 3DSVG Studio拍摄到SVG工作流；不安装旧SLAM/TSDF/机器人依赖。
+# 以下版本在本项目Windows 11 / Python 3.14.4环境实际使用。
+numpy==2.5.4
+opencv-python==5.0.0.93
+open3d==0.20.0
+matplotlib==3.11.2
+pyrealsense2==2.59.1.11053

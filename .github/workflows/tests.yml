@@ -1,0 +1,37 @@
+name: Offline tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+          cache: pip
+          cache-dependency-path: requirements-svg.txt
+      - name: Install dependencies
+        run: python -m pip install -r requirements-svg.txt
+      - name: Run offline tests
+        run: python -m unittest discover -s tests -v
+      - name: Generate automatic outline draft from the real example
+        run: >-
+          python run_workflow.py auto-contours
+          --capture-dir examples/chair/capture
+          --output output/ci_auto_contours
+          --roi 185 15 495 480
+      - name: Split the reviewed example into numbered parts
+        run: >-
+          python run_workflow.py split
+          --input examples/chair/final.svg
+          --output output/ci_parts
+          --config examples/chair/parts_config.json --trim --zip
