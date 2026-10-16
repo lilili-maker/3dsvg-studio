@@ -34,8 +34,8 @@
       "sha256": "f0f4181c059c3e1e94b3ee8740c3c9372df8c960c4a2bbc927d58cc682961298"
     },
     ".gitignore": {
-      "size_bytes": 158,
-      "sha256": "cfc9c69417f10fbbc9d9e1fcfe1679a1dd453e0d8787cebacf66609a924fa602"
+      "size_bytes": 367,
+      "sha256": "97418ff1778700dd54529874b2f25cefc8407fa07d78c2fe57697a1a049361a1"
     },
     "CHANGELOG.md": {
       "size_bytes": 919,
@@ -52,10 +52,6 @@
     "docs/3DSVG_STUDIO_README.md": {
       "size_bytes": 6090,
       "sha256": "aeeb77b492b6201609d150b393e9c2563fe38a2049693128093ca49d715b1786"
-    },
-    "docs/AI_ASSISTED_TRACING.md": {
-      "size_bytes": 3767,
-      "sha256": "225a465c3646c9f1d1b03b58a7c7666cb318e393931312f015cfab31d66c07f9"
     },
     "docs/PUBLISH_VALIDATION.md": {
       "size_bytes": 2511,
@@ -150,8 +146,8 @@
       "sha256": "c3cc64157b279491ab25fcede4fea147e639b43befdf1e6bfeb2a90d125eb559"
     },
     "README.md": {
-      "size_bytes": 10073,
-      "sha256": "30529d20662fa19c45d259c5d1341bbaaaf4e62be28f31831e3d9f1f4663f28d"
+      "size_bytes": 7145,
+      "sha256": "cade2aacc987ab1353c75f3e49f587281d8d27252bc162b291d07239afe7d286"
     },
     "requirements-svg.txt": {
       "size_bytes": 251,
@@ -178,12 +174,8 @@
       "sha256": "587cedbac8fe50b0e6088475b87942545f5415edf316787fa78cc1b0d5487f8e"
     },
     "scripts/build_github_release.py": {
-      "size_bytes": 7525,
-      "sha256": "a9c121fe1f5d3cf784968e092c535efd4c3e41dd2dadbdecedfb31d896225818"
-    },
-    "scripts/publish_github.ps1": {
-      "size_bytes": 3477,
-      "sha256": "fb2a6c22a1a717f8db1c50b67d4442a8db7877e4f4c7ff2eedda61c33ece8226"
+      "size_bytes": 7496,
+      "sha256": "51827101fc96baa4826d060b8f24af333ac8025403f48f5f9b0c2b9a1e9b301e"
     },
     "split_svg_parts.py": {
       "size_bytes": 20758,
@@ -356,6 +348,10 @@
     "examples/chair/simplified/simplification_report.json": {
       "size_bytes": 1438,
       "sha256": "6234e457bc5c4ff65cec12f0c4dd6f2ef0b8822883457ddc5d927187f1c1232f"
+    },
+    "docs/AI_ASSISTED_TRACING.md": {
+      "size_bytes": 3767,
+      "sha256": "225a465c3646c9f1d1b03b58a7c7666cb318e393931312f015cfab31d66c07f9"
     }
   }
 }

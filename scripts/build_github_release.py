@@ -12,7 +12,7 @@ FILES=[
  'README.md','.gitignore','.gitattributes','requirements-svg.txt','CHANGELOG.md','CONTRIBUTING.md',
  '.github/workflows/tests.yml',
  'run_workflow.py','run_3dsvg_studio.py','run_photo_svg_workflow.py','split_svg_parts.py','rgbd_to_svg.py',
- 'scripts/build_github_release.py','scripts/publish_github.ps1','config/svg_parts_chair.json',
+ 'scripts/build_github_release.py','config/svg_parts_chair.json',
  'docs/AI_ASSISTED_TRACING.md','docs/3DSVG_STUDIO_README.md','docs/SVG_PARTS_SPLITTER.md','docs/PUBLISH_VALIDATION.md','docs/RGBD_AUTO_CONTOURS.md',
  'src/04_single_frame_pointcloud.py',
  *['src/svg_isometric/'+name+'.py' for name in ('__init__','common','capture_view','generate_view_pointcloud',
