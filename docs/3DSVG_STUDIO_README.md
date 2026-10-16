@@ -1,10 +1,10 @@
-# 3DSVG Studio 精简版
+# 点云正交投影与SVG底稿
 
 单条Python命令：真实PLY → 可选裁剪/去噪 → 姿态校正 → 正交斜视PNG → 人工描边SVG模板。无GUI、相机预览、工作流数据库或新重建算法。适用于家具及其他物体；默认部件层名称只是人工分类，可在Inkscape重命名。
 
 ## 依赖与启动
 
-使用项目现有.venv中的NumPy、Open3D、OpenCV及既有辅助模块，不需要Streamlit、GPU或相机。新环境按requirements-svg.txt安装；发布版不携带历史重建功能。
+使用NumPy、Open3D和OpenCV；新环境按requirements-svg.txt安装。已有PLY可以离线处理，不需要连接相机。
 
 ```powershell
 # 在当前仓库根目录执行
@@ -28,7 +28,7 @@
 其他输入最小命令：
 
 ```powershell
-.\.venv\Scripts\python.exe run_3dsvg_studio.py --input "D:\你的点云.ply" --output output/3dsvg_studio/new_object_01 --unit m
+.\.venv\Scripts\python.exe run_3dsvg_studio.py --input "object.ply" --output output/3dsvg_studio/new_object_01 --unit m
 ```
 
 若坐标是毫米，改用 `--unit mm`。不知道单位时先确认来源；不能只因PLY扩展名就认为是米。未传unit会明确停止。
@@ -92,4 +92,4 @@ cleaned.ply保持米制输入坐标，`T_furniture_input`记录从此坐标到�
 
 测试用已知边长三维盒子验证投影、单位、正交旋转、横纵比例、PNG/SVG映射、深度遮挡、图层与不可覆盖；合成数据不冒充真实扫描或完成描边。
 
-仓库只附examples/chair这个实际案例。已知尺寸盒子在单元测试中按需生成，不把其他历史扫描或大型模型作为示例上传。测试数量和执行时间以本次运行及发布验证说明为准。
+仓库附examples/chair这个实际案例。已知尺寸盒子在单元测试中按需生成；测试范围见验证说明，执行结果以本次运行输出为准。

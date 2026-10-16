@@ -12,7 +12,7 @@
 .\.venv\Scripts\python.exe run_workflow.py split --input examples/chair/final.svg --output output/check_parts --config examples/chair/parts_config.json --trim --zip
 ```
 
-重复验证请使用新的输出目录。不要把历史data、output、虚拟环境、原始录制、设备序列号、账号信息或令牌提交到仓库。
+重复验证请使用新的输出目录。不要把data、output、虚拟环境、原始录制、设备序列号、账号信息或令牌提交到仓库。
 
 ## 修改要求
 
@@ -25,4 +25,4 @@
 
 提交问题时提供执行命令、依赖版本、完整错误及可共享的最小输入；请先移除个人信息。
 
-仓库当前准备为私有项目。尚未指定开源许可证，不应视为已授予开源再分发许可；公开前由所有者决定许可范围。
+当前未附开源许可证。代码与示例素材的复制、修改和再分发需要相应授权。

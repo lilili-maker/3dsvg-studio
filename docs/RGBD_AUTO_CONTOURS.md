@@ -7,7 +7,7 @@
 先拍好同一时刻且Depth对齐Color的RGB-D，准备color.png、原始uint16 depth.png和camera_intrinsics.json。JSON须包含width、height、depth_scale、depth_scale_unit=meters_per_depth_unit、depth_aligned_to=color。
 
 ```powershell
-cd .
+# 在仓库根目录执行。
 .\.venv\Scripts\python.exe rgbd_to_svg.py `
   --color "你的采集目录/color.png" `
   --depth "你的采集目录/depth.png" `

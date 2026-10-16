@@ -46,24 +46,24 @@
       "sha256": "67fbc27c8c3f3b92413ea44977d34b435e668bb8b52fd8c8ffbe62e84b6dbf81"
     },
     "CONTRIBUTING.md": {
-      "size_bytes": 1555,
-      "sha256": "8d5332bf14418dc141e85b31fe9bd8c52febc5ca8243bd8951bc6b1e559332b0"
+      "size_bytes": 1498,
+      "sha256": "21bd2192e10f2aca5216a5f9c8d211182277077aa14b700122843802ef362a85"
     },
     "docs/3DSVG_STUDIO_README.md": {
-      "size_bytes": 6219,
-      "sha256": "1caba98a34c7b767e43999cb8e3a153e1244796ee10e834802a27e1bc54b89b6"
+      "size_bytes": 6090,
+      "sha256": "aeeb77b492b6201609d150b393e9c2563fe38a2049693128093ca49d715b1786"
     },
     "docs/AI_ASSISTED_TRACING.md": {
       "size_bytes": 3767,
       "sha256": "225a465c3646c9f1d1b03b58a7c7666cb318e393931312f015cfab31d66c07f9"
     },
     "docs/PUBLISH_VALIDATION.md": {
-      "size_bytes": 3221,
-      "sha256": "550ef14cc7104ace3ed0a3f1a54f3039c5be6382a9a056484c1cdfe04abef129"
+      "size_bytes": 1934,
+      "sha256": "d829b10f9fae65ef2e56eb78e0ea44975505dac26993709a07ca1c81861ffd00"
     },
     "docs/RGBD_AUTO_CONTOURS.md": {
-      "size_bytes": 4559,
-      "sha256": "37096ffbdf0ebd41b93030c170dc8fde6c0d3dbb222560090339ef2a74d7cdb2"
+      "size_bytes": 4561,
+      "sha256": "a774914cb81f172a08159ee3cbe8252606b2f8902d651bbd4e9b2622933e5644"
     },
     "docs/SVG_PARTS_SPLITTER.md": {
       "size_bytes": 4108,
@@ -150,8 +150,8 @@
       "sha256": "c3cc64157b279491ab25fcede4fea147e639b43befdf1e6bfeb2a90d125eb559"
     },
     "README.md": {
-      "size_bytes": 15415,
-      "sha256": "2d7f986f6f22ab6615623e2c8877fde648dd8ba3c34bea52680f89296d7c0e84"
+      "size_bytes": 9424,
+      "sha256": "c702e6243e1611fe3b8fbc91016944e1608f96a94516eb8f5aa3b9a1541795c6"
     },
     "requirements-svg.txt": {
       "size_bytes": 251,
