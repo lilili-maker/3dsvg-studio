@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="380px" height="535px" viewBox="0 0 380 535" version="1.1">
+  <title>3DSVG Studio: simplified structural chair outline</title>
+  <desc>Only structural contours retained; decorative and highlight lines removed. Original coordinates, component layers, colours and manually estimated wheel provenance are preserved. Perspective tracing, not metric geometry.</desc>
+  <g id="backrest" transform="translate(-150,20)" fill="none" stroke="#00cf42" stroke-linecap="round" stroke-linejoin="round" inkscape:groupmode="layer" inkscape:label="Backrest">
+    <path id="backrest_00" d="M 216 33 C 232 18 267 19 290 27 C 322 37 339 63 343 93 C 346 111 333 120 314 125 C 290 134 262 135 242 125 C 221 116 212 96 210 73 C 208 54 208 42 216 33 Z" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="outline" />
+  </g>
+  <g id="back_support" transform="translate(-150,20)" fill="none" stroke="#009eac" stroke-linecap="round" stroke-linejoin="round" inkscape:groupmode="layer" inkscape:label="Back support">
+    <path id="back_support_00" d="M 261 133 L 264 185 Q 264 200 270 209" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+    <path id="back_support_01" d="M 282 133 L 286 192 Q 286 204 292 210" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+  </g>
+  <g id="rear_base" transform="translate(-150,20)" fill="none" stroke="#df7c16" stroke-linecap="round" stroke-linejoin="round" inkscape:groupmode="layer" inkscape:label="Rear base visible sections">
+    <path id="rear_base_00" d="M 325 347 Q 316 334 307 332 Q 301 331 300 344 L 300 348" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+    <path id="rear_base_01" d="M 319 353 Q 311 340 307 339 L 307 348" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+    <path id="rear_base_02" d="M 350 348 Q 389 340 427 341 Q 445 341 450 357" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+    <path id="rear_base_03" d="M 354 360 Q 392 349 425 349 Q 436 349 438 361" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+  </g>
+  <g id="rear_wheels" transform="translate(-150,20)" fill="none" stroke="#2868cb" stroke-linecap="round" stroke-linejoin="round" inkscape:groupmode="layer" inkscape:label="Rear wheels visible sections">
+    <path id="rear_wheels_00" d="M 299 348 L 299 354 L 316 354 L 316 347 Q 315 342 308 343 Q 301 342 299 348 Z" stroke-width="2" data-geometry-source="manual_estimate_completion" data-role="manually_completed_outline" data-original-visible-d="M 299 348 L 299 354 L 316 354 L 316 347" />
+    <path id="rear_wheels_01" d="M 435 363 Q 442 366 450 362 L 452 370 Q 447 376 435 374 L 432 369 Z" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="outline" />
+  </g>
+  <g id="base" transform="translate(-150,20)" fill="none" stroke="#df7c16" stroke-linecap="round" stroke-linejoin="round" inkscape:groupmode="layer" inkscape:label="Chrome base visible contours">
+    <path id="base_00" d="M 326 354 Q 268 355 222 367 Q 202 371 196 389 Q 194 394 198 396 Q 204 398 211 394 Q 214 379 228 377 Q 278 372 314 373" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+    <path id="base_02" d="M 345 355 Q 375 363 415 387 Q 462 405 477 424 Q 484 434 472 435 Q 463 433 459 425 Q 439 410 408 403 Q 376 391 349 382" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+    <path id="base_05" d="M 328 374 Q 309 396 293 423 Q 279 440 274 456 Q 269 470 282 470 Q 293 471 296 461 Q 296 449 306 434 Q 326 408 344 390" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+    <path id="base_08" d="M 316 375 Q 323 390 333 394 Q 340 397 348 386" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+    <path id="base_09" d="M 334 392 L 333 400 Q 340 403 345 397 L 345 390" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+  </g>
+  <g id="support" transform="translate(-150,20)" fill="none" stroke="#009eac" stroke-linecap="round" stroke-linejoin="round" inkscape:groupmode="layer" inkscape:label="Gas lift">
+    <path id="support_00" d="M 328 267 L 328 286" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+    <path id="support_01" d="M 343 266 L 343 287" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+    <path id="support_02" d="M 327 286 Q 335 289 347 286 L 347 292 Q 336 295 326 292 Z" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="outline" />
+    <path id="support_03" d="M 326 292 L 327 348 Q 328 362 336 365 Q 348 365 349 349 L 347 293" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+  </g>
+  <g id="lever" transform="translate(-150,20)" fill="none" stroke="#ff0000" stroke-linecap="round" stroke-linejoin="round" inkscape:groupmode="layer" inkscape:label="Adjustment lever">
+    <path id="lever_00" d="M 295 259 L 263 279" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+    <path id="lever_01" d="M 301 261 L 266 284" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+    <path id="lever_02" d="M 261 277 Q 256 275 247 279 Q 238 282 242 290 Q 247 297 258 290 Q 270 285 267 281 Q 265 278 261 277 Z" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="outline" />
+  </g>
+  <g id="seat" transform="translate(-150,20)" fill="none" stroke="#9500ff" stroke-linecap="round" stroke-linejoin="round" inkscape:groupmode="layer" inkscape:label="Seat">
+    <path id="seat_00" d="M 248 214 Q 258 204 281 209 Q 310 212 342 208 Q 387 206 424 214 Q 451 220 460 234 Q 467 245 451 255 Q 414 270 363 266 Q 317 265 280 254 L 248 245 Q 240 241 243 229 Q 243 220 248 214 Z" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="outline" />
+    <path id="seat_01" d="M 244 231 Q 275 241 309 247 Q 360 258 408 252 Q 443 249 458 239" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="open" />
+  </g>
+  <g id="wheels" transform="translate(-150,20)" fill="none" stroke="#2868cb" stroke-linecap="round" stroke-linejoin="round" inkscape:groupmode="layer" inkscape:label="Front wheels; lower wheel incomplete">
+    <path id="wheels_00" d="M 194 398 Q 201 402 211 398 L 211 406 Q 207 413 195 411 Q 191 410 192 404 Z" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="outline" />
+    <path id="wheels_02" d="M 460 436 Q 467 441 480 437 L 481 445 Q 478 455 467 453 Q 459 452 459 444 Z" stroke-width="2" data-geometry-source="manual_visible_photo_trace" data-role="outline" />
+    <path id="wheel_bottom_completed" d="M 275 472 L 273 477 L 274 480 C 273 489 280 494 287 493 C 295 493 299 488 297 480 L 297 476 L 293 472 Q 284 476 275 472 Z" stroke-width="2" data-geometry-source="manual_estimate_completion" data-role="manually_completed_outline" data-original-visible-d="[&quot;M 275 472 L 273 477 L 274 480&quot;, &quot;M 293 472 L 297 476 L 297 480&quot;]" />
+  </g>
+  <metadata id="example_provenance">{"app_name": "3DSVG Studio", "workflow": "manual_visible_photo_trace", "source_photo": "examples/chair/capture/color.png", "source_photo_sha256": "de431dcb23b564d61e6c05f1666add241abaedc2215f5476ae682443075cc054", "source_photo_to_svg": [[1, 0, -150], [0, 1, 20]], "real_world_scale_calibrated": false, "document_units": "px", "depth_used": false, "route": "Perspective RGB photo tracing; not a pointcloud orthographic reconstruction.", "manually_estimated_wheel_paths": ["rear_wheels_00", "wheel_bottom_completed"], "note": "One physical stool example only. Two missing wheel outlines were manually completed at user request. No physical dimensions are asserted."}</metadata>
+  <metadata id="simplification_metadata">{"source": "examples/chair/final.svg", "source_sha256": "a610b6d59a53c87c7851a619ab27cf39d48d05316259f1ba3d27ff1ca4d9e51e", "removed_path_ids": ["backrest_01", "backrest_02", "backrest_03", "backrest_04", "back_support_02", "rear_base_04", "base_01", "base_03", "base_04", "base_06", "base_07", "support_04", "support_05", "seat_02", "seat_03", "wheels_01", "wheels_03"], "stroke_width": 2, "coordinate_units": "px", "path_geometry_modified": false, "scale_modified": false}</metadata>
+</svg>

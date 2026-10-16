@@ -1,0 +1,215 @@
+{
+  "app_name": "3DSVG Studio",
+  "source": "../final.svg",
+  "source_sha256": "81f69f304ccb7b724fe9eba5bf0eeb84ce8eb473b1fe22a884d63273aecc23f6",
+  "source_unchanged": true,
+  "split_mode": "explicit_config",
+  "part_count": 11,
+  "parts": [
+    {
+      "number": "001",
+      "name": "01_backrest",
+      "label": "靠背",
+      "selected_ids": [
+        "backrest"
+      ],
+      "vector_count": 1,
+      "path_count": 1,
+      "file": "001.svg",
+      "canvas_trimmed": true,
+      "viewBox": "38.8888888889 21.2716049383 174.541610741 150.858322459",
+      "width": "174.541610741px",
+      "height": "150.858322459px",
+      "warnings": [],
+      "sha256": "e816a98b3584447389f6e0ce2ffe312d3a5ef7a40379bbf1a410ffa8b6753329",
+      "readback_verified": true
+    },
+    {
+      "number": "002",
+      "name": "02_seat",
+      "label": "坐垫",
+      "selected_ids": [
+        "seat"
+      ],
+      "vector_count": 2,
+      "path_count": 2,
+      "file": "002.svg",
+      "canvas_trimmed": true,
+      "viewBox": "72.1818181818 207.333333333 259.948616601 99.5087719298",
+      "width": "259.948616601px",
+      "height": "99.5087719298px",
+      "warnings": [],
+      "sha256": "336b6208df49e51d1d2e3fbf374235cd14705c68ab320acdfcb62ad17efaf449",
+      "readback_verified": true
+    },
+    {
+      "number": "003",
+      "name": "03_back_support",
+      "label": "靠背支撑杆",
+      "selected_ids": [
+        "back_support"
+      ],
+      "vector_count": 2,
+      "path_count": 2,
+      "file": "003.svg",
+      "canvas_trimmed": true,
+      "viewBox": "91 133 71 117",
+      "width": "71px",
+      "height": "117px",
+      "warnings": [],
+      "sha256": "6bda02306424863426ed93493f078519a5fba9b60c9ab0ed2bb7a0a3b01d6b56",
+      "readback_verified": true
+    },
+    {
+      "number": "004",
+      "name": "04_gas_lift",
+      "label": "气压杆",
+      "selected_ids": [
+        "support"
+      ],
+      "vector_count": 4,
+      "path_count": 4,
+      "file": "004.svg",
+      "canvas_trimmed": true,
+      "viewBox": "156 266 63 139",
+      "width": "63px",
+      "height": "139px",
+      "warnings": [],
+      "sha256": "19f32c5bc1163cfc55738537fd73a98514cedd8b9fc946b5bc093b92263904e3",
+      "readback_verified": true
+    },
+    {
+      "number": "005",
+      "name": "05_adjustment_lever",
+      "label": "高度调节杆",
+      "selected_ids": [
+        "lever"
+      ],
+      "vector_count": 3,
+      "path_count": 3,
+      "file": "005.svg",
+      "canvas_trimmed": true,
+      "viewBox": "70.7692307692 259 100.230769231 74.5",
+      "width": "100.230769231px",
+      "height": "74.5px",
+      "warnings": [],
+      "sha256": "3934cd5c94b8982952d9e13fea76cebcdcf6357d20b3568c6d68bd5883422bbb",
+      "readback_verified": true
+    },
+    {
+      "number": "006",
+      "name": "06_base",
+      "label": "五星底座",
+      "selected_ids": [
+        "rear_base",
+        "base"
+      ],
+      "vector_count": 9,
+      "path_count": 9,
+      "file": "006.svg",
+      "canvas_trimmed": true,
+      "viewBox": "25.3333333333 331.928571429 324.245614035 178.162337662",
+      "width": "324.245614035px",
+      "height": "178.162337662px",
+      "warnings": [],
+      "sha256": "dc2658126e9823a6552b76a199571a4ea0bab29cc90d20fc1ef1725599de1d4a",
+      "readback_verified": true
+    },
+    {
+      "number": "007",
+      "name": "07_wheel_front_left",
+      "label": "左前轮",
+      "selected_ids": [
+        "wheels_00"
+      ],
+      "vector_count": 1,
+      "path_count": 1,
+      "file": "007.svg",
+      "canvas_trimmed": true,
+      "viewBox": "21.8 398 59.2 53.4444444444",
+      "width": "59.2px",
+      "height": "53.4444444444px",
+      "warnings": [],
+      "sha256": "f82be5a9488941763f7c3dab7d77da84cd591478422742877f5db70c60ed1dfe",
+      "readback_verified": true
+    },
+    {
+      "number": "008",
+      "name": "08_wheel_front_right",
+      "label": "右前轮",
+      "selected_ids": [
+        "wheels_02"
+      ],
+      "vector_count": 1,
+      "path_count": 1,
+      "file": "008.svg",
+      "canvas_trimmed": true,
+      "viewBox": "289 436 62 57.3333333333",
+      "width": "62px",
+      "height": "57.3333333333px",
+      "warnings": [],
+      "sha256": "297abb0959707d8fba7c27ba13e2f31b98ad4e479ffebaa62e68fec2b7b1eb5f",
+      "readback_verified": true
+    },
+    {
+      "number": "009",
+      "name": "09_wheel_rear_left",
+      "label": "左后轮（含人工补全）",
+      "selected_ids": [
+        "rear_wheels_00"
+      ],
+      "vector_count": 1,
+      "path_count": 1,
+      "file": "009.svg",
+      "canvas_trimmed": true,
+      "viewBox": "129 342.833333333 57 51.1666666667",
+      "width": "57px",
+      "height": "51.1666666667px",
+      "warnings": [],
+      "sha256": "fd58db61bf321795ed39b9a39be8d798ab3efd7bff1949bf026fac6774b5fa14",
+      "readback_verified": true
+    },
+    {
+      "number": "010",
+      "name": "10_wheel_rear_right",
+      "label": "右后轮",
+      "selected_ids": [
+        "rear_wheels_01"
+      ],
+      "vector_count": 1,
+      "path_count": 1,
+      "file": "010.svg",
+      "canvas_trimmed": true,
+      "viewBox": "262 362 60 52.5",
+      "width": "60px",
+      "height": "52.5px",
+      "warnings": [],
+      "sha256": "91c0db05960d7ec6af0cca6e6ff1104f9211dbf5d694db40ac87531fe809c3b6",
+      "readback_verified": true
+    },
+    {
+      "number": "011",
+      "name": "11_wheel_bottom",
+      "label": "下方轮子（含人工补全）",
+      "selected_ids": [
+        "wheel_bottom_completed"
+      ],
+      "vector_count": 1,
+      "path_count": 1,
+      "file": "011.svg",
+      "canvas_trimmed": true,
+      "viewBox": "103 472 64.5096679919 61.1261822124",
+      "width": "64.5096679919px",
+      "height": "61.1261822124px",
+      "warnings": [],
+      "sha256": "12e43c13c1ad0e6c9c7b77e864d9bb1872d042ad4766e408b727ad5a2f355633",
+      "readback_verified": true
+    }
+  ],
+  "assigned_vector_count": 26,
+  "unassigned_vector_count": 0,
+  "geometry_modified": false,
+  "automatic_geometry_completion": false,
+  "filename_convention": "001.svg, 002.svg, ...",
+  "warnings": []
+}

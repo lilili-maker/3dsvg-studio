@@ -60,10 +60,13 @@ def build(output,make_zip=False):
     if any(p.suffix.lower() in ('.db3','.bag','.ply','.obj','.stl') for p in example.rglob('*')):
         raise ValueError('示例只发布一组RGB-D及SVG，不发布实验点云/录制/网格')
     fixed={'capture/color.png','capture/depth.png','capture/camera_intrinsics.json','final.svg',
-           'preview.png','provenance.json','parts_config.json','parts/README.md','parts/split_report.json'}
+           'preview.png','provenance.json','parts_config.json','parts/README.md','parts/split_report.json',
+           'README.md','detailed_preview.png','simplified/final.svg','simplified/preview.png',
+           'simplified/parts_config.json','simplified/simplification_report.json',
+           'simplified/parts/README.md','simplified/parts/split_report.json'}
     import re
     extras=[p.relative_to(example).as_posix() for p in example.rglob('*') if p.is_file() and
-            p.relative_to(example).as_posix() not in fixed and not re.fullmatch(r'parts/\d+\.svg',p.relative_to(example).as_posix())]
+            p.relative_to(example).as_posix() not in fixed and not re.fullmatch(r'(?:simplified/)?parts/\d+\.svg',p.relative_to(example).as_posix())]
     if extras:raise ValueError('示例包含白名单外文件，请先明确整理：'+str(extras))
     output.mkdir(parents=True,exist_ok=False)
     adaptations=[]

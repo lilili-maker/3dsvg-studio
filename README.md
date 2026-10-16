@@ -8,6 +8,15 @@
 
 > 示例是带靠背的旋转凳。线稿使用照片透视，两处轮子轮廓含已标记的人工估计补线；它不是自动恢复的三维模型，也没有实物尺寸标定。
 
+同一把椅子提供两种线稿，可直接下载或在 Inkscape 中编辑：
+
+| 细节版：43 条路径，保留内部细线 | 精简版：26 条路径，只保留必要粗线条 |
+| --- | --- |
+| [打开 SVG](examples/chair/final.svg) · [11 份编号零件](examples/chair/parts/) | [打开 SVG](examples/chair/simplified/final.svg) · [11 份编号零件](examples/chair/simplified/parts/) |
+| ![细节版](examples/chair/detailed_preview.png) | ![精简版](examples/chair/simplified/preview.png) |
+
+两个版本均保留颜色和部件图层，原版不覆盖。区别、来源和使用说明见[椅子示例](examples/chair/README.md)。
+
 ## 完整工作流
 
 ```mermaid

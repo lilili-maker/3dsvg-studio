@@ -1,0 +1,83 @@
+{
+  "description": "Simplified chair: retained structural paths only, numeric part filenames.",
+  "parts": [
+    {
+      "name": "01_backrest",
+      "label": "靠背",
+      "elements": [
+        "backrest"
+      ]
+    },
+    {
+      "name": "02_seat",
+      "label": "坐垫",
+      "elements": [
+        "seat"
+      ]
+    },
+    {
+      "name": "03_back_support",
+      "label": "靠背支撑杆",
+      "elements": [
+        "back_support"
+      ]
+    },
+    {
+      "name": "04_gas_lift",
+      "label": "气压杆",
+      "elements": [
+        "support"
+      ]
+    },
+    {
+      "name": "05_adjustment_lever",
+      "label": "高度调节杆",
+      "elements": [
+        "lever"
+      ]
+    },
+    {
+      "name": "06_base",
+      "label": "五星底座",
+      "elements": [
+        "rear_base",
+        "base"
+      ]
+    },
+    {
+      "name": "07_wheel_front_left",
+      "label": "左前轮",
+      "elements": [
+        "wheels_00"
+      ]
+    },
+    {
+      "name": "08_wheel_front_right",
+      "label": "右前轮",
+      "elements": [
+        "wheels_02"
+      ]
+    },
+    {
+      "name": "09_wheel_rear_left",
+      "label": "左后轮（含人工补全）",
+      "elements": [
+        "rear_wheels_00"
+      ]
+    },
+    {
+      "name": "10_wheel_rear_right",
+      "label": "右后轮",
+      "elements": [
+        "rear_wheels_01"
+      ]
+    },
+    {
+      "name": "11_wheel_bottom",
+      "label": "下方轮子（含人工补全）",
+      "elements": [
+        "wheel_bottom_completed"
+      ]
+    }
+  ]
+}

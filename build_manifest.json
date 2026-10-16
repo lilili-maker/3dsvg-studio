@@ -38,8 +38,8 @@
       "sha256": "cfc9c69417f10fbbc9d9e1fcfe1679a1dd453e0d8787cebacf66609a924fa602"
     },
     "CHANGELOG.md": {
-      "size_bytes": 782,
-      "sha256": "4985b7fff723280a3768b438653d507ddd843440166f423fefb9810c9dce9b19"
+      "size_bytes": 919,
+      "sha256": "0f05bffe5547504b52180bf4ab274ecebbfec841be2418857532cb6dabc22829"
     },
     "config/svg_parts_chair.json": {
       "size_bytes": 1121,
@@ -58,8 +58,8 @@
       "sha256": "225a465c3646c9f1d1b03b58a7c7666cb318e393931312f015cfab31d66c07f9"
     },
     "docs/PUBLISH_VALIDATION.md": {
-      "size_bytes": 1934,
-      "sha256": "d829b10f9fae65ef2e56eb78e0ea44975505dac26993709a07ca1c81861ffd00"
+      "size_bytes": 2511,
+      "sha256": "826e4a278963cdfeb91042c56a2865027537389c2cfa134e20e5e9b0ee39b527"
     },
     "docs/RGBD_AUTO_CONTOURS.md": {
       "size_bytes": 4561,
@@ -150,8 +150,8 @@
       "sha256": "c3cc64157b279491ab25fcede4fea147e639b43befdf1e6bfeb2a90d125eb559"
     },
     "README.md": {
-      "size_bytes": 9424,
-      "sha256": "c702e6243e1611fe3b8fbc91016944e1608f96a94516eb8f5aa3b9a1541795c6"
+      "size_bytes": 10073,
+      "sha256": "30529d20662fa19c45d259c5d1341bbaaaf4e62be28f31831e3d9f1f4663f28d"
     },
     "requirements-svg.txt": {
       "size_bytes": 251,
@@ -178,8 +178,8 @@
       "sha256": "587cedbac8fe50b0e6088475b87942545f5415edf316787fa78cc1b0d5487f8e"
     },
     "scripts/build_github_release.py": {
-      "size_bytes": 7253,
-      "sha256": "83c7c08255084c9a9fa8eb7ed3468fe4d7ebb364fad84fc21cf758c5e4ecdd3f"
+      "size_bytes": 7525,
+      "sha256": "a9c121fe1f5d3cf784968e092c535efd4c3e41dd2dadbdecedfb31d896225818"
     },
     "scripts/publish_github.ps1": {
       "size_bytes": 3477,
@@ -280,6 +280,82 @@
     "tests/test_workflow_cli.py": {
       "size_bytes": 4434,
       "sha256": "72a13bac920706c2017ac42a34f76b9be8decf7cb12e079a6f4595dacbfc04f9"
+    },
+    "examples/chair/README.md": {
+      "size_bytes": 2496,
+      "sha256": "774ee67fd28f01d088d99a12fb70917fab7a4226d22e656b097b5c25ad274103"
+    },
+    "examples/chair/detailed_preview.png": {
+      "size_bytes": 92318,
+      "sha256": "ffed2a51b928527f2f402d5ab1bcef03e56630cfa2149ccc1120eedb050e4f86"
+    },
+    "examples/chair/simplified/final.svg": {
+      "size_bytes": 8661,
+      "sha256": "81f69f304ccb7b724fe9eba5bf0eeb84ce8eb473b1fe22a884d63273aecc23f6"
+    },
+    "examples/chair/simplified/parts/001.svg": {
+      "size_bytes": 2909,
+      "sha256": "e816a98b3584447389f6e0ce2ffe312d3a5ef7a40379bbf1a410ffa8b6753329"
+    },
+    "examples/chair/simplified/parts/002.svg": {
+      "size_bytes": 3095,
+      "sha256": "336b6208df49e51d1d2e3fbf374235cd14705c68ab320acdfcb62ad17efaf449"
+    },
+    "examples/chair/simplified/parts/003.svg": {
+      "size_bytes": 2860,
+      "sha256": "6bda02306424863426ed93493f078519a5fba9b60c9ab0ed2bb7a0a3b01d6b56"
+    },
+    "examples/chair/simplified/parts/004.svg": {
+      "size_bytes": 3147,
+      "sha256": "19f32c5bc1163cfc55738537fd73a98514cedd8b9fc946b5bc093b92263904e3"
+    },
+    "examples/chair/simplified/parts/005.svg": {
+      "size_bytes": 3094,
+      "sha256": "3934cd5c94b8982952d9e13fea76cebcdcf6357d20b3568c6d68bd5883422bbb"
+    },
+    "examples/chair/simplified/parts/006.svg": {
+      "size_bytes": 4551,
+      "sha256": "dc2658126e9823a6552b76a199571a4ea0bab29cc90d20fc1ef1725599de1d4a"
+    },
+    "examples/chair/simplified/parts/007.svg": {
+      "size_bytes": 2796,
+      "sha256": "f82be5a9488941763f7c3dab7d77da84cd591478422742877f5db70c60ed1dfe"
+    },
+    "examples/chair/simplified/parts/008.svg": {
+      "size_bytes": 2787,
+      "sha256": "297abb0959707d8fba7c27ba13e2f31b98ad4e479ffebaa62e68fec2b7b1eb5f"
+    },
+    "examples/chair/simplified/parts/009.svg": {
+      "size_bytes": 2941,
+      "sha256": "fd58db61bf321795ed39b9a39be8d798ab3efd7bff1949bf026fac6774b5fa14"
+    },
+    "examples/chair/simplified/parts/010.svg": {
+      "size_bytes": 2747,
+      "sha256": "91c0db05960d7ec6af0cca6e6ff1104f9211dbf5d694db40ac87531fe809c3b6"
+    },
+    "examples/chair/simplified/parts/011.svg": {
+      "size_bytes": 3076,
+      "sha256": "12e43c13c1ad0e6c9c7b77e864d9bb1872d042ad4766e408b727ad5a2f355633"
+    },
+    "examples/chair/simplified/parts/README.md": {
+      "size_bytes": 790,
+      "sha256": "2a4ee92ff6586cbe2bccfd9e0d91b54cea912957a08082e22150bf978a3a895a"
+    },
+    "examples/chair/simplified/parts/split_report.json": {
+      "size_bytes": 6083,
+      "sha256": "b6b91aef86d971b040693705d388c8523a4d884e41354bac9917eda00a3d220b"
+    },
+    "examples/chair/simplified/parts_config.json": {
+      "size_bytes": 1535,
+      "sha256": "5f099c77966a2d78431fa0841c73b65ed5490faa87b5674a2df223794458c856"
+    },
+    "examples/chair/simplified/preview.png": {
+      "size_bytes": 67736,
+      "sha256": "60822a38d688aed01c87abf2b7312ad5cd6e73134f31c9899d9600a60d60659a"
+    },
+    "examples/chair/simplified/simplification_report.json": {
+      "size_bytes": 1438,
+      "sha256": "6234e457bc5c4ff65cec12f0c4dd6f2ef0b8822883457ddc5d927187f1c1232f"
     }
   }
 }
