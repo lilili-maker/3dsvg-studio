@@ -1,7 +1,9 @@
-* text=auto
+* text=auto eol=lf
 *.py text eol=lf
 *.md text eol=lf
 *.json text eol=lf
 *.yml text eol=lf
 *.svg text eol=lf
 *.png binary
+# 示例包含来源校验信息，保留采集文件与已有报告的原始字节。
+examples/** -text

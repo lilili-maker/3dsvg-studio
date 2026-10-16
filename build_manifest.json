@@ -26,8 +26,8 @@
   "note": "compat functions are extracted with AST identity checks. No historical source file is modified.",
   "files": {
     ".gitattributes": {
-      "size_bytes": 114,
-      "sha256": "a6fdd28f356649e2397e0e2d79b8e8bbcfeba8bc0ca8a1690c73167e2b6f7629"
+      "size_bytes": 226,
+      "sha256": "aef42a71ad9dacbab675e8e20d2062086422f6ae290044d428c884a9abc4aa83"
     },
     ".github/workflows/tests.yml": {
       "size_bytes": 1067,
